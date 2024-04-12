@@ -1,0 +1,72 @@
+/* Courses Section Styles */
+.courses {
+    padding: 50px 0;
+  }
+  
+  .courses_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  /* Animation for Container */
+  .courses article {
+    background-color: var(--color-bg2);
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  }
+  
+  .courses article:hover {
+    transform: translateY(-5px); /* Move the container slightly upwards on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Enhance box shadow on hover */
+    background-color: var(--color-primary); /* Change background color on hover */
+    color: var(--color-light); /* Change text color on hover */
+  }
+  
+  .courses .course_image img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Adjust this value as needed */
+    max-height: 300px; /* Adjust this value as needed */
+}
+
+
+/.subjects_taught {
+    padding: 50px 0;
+}
+
+.subjects_taught h3 {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    /* Add animation */
+    animation: fadeInDown 1s ease-out;
+}
+
+.subjects_taught ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subjects_taught li {
+    margin-bottom: 15px;
+    /* Add transition */
+    transition: transform 0.3s ease-out;
+}
+
+.subjects_taught li:hover {
+    transform: scale(1.1);
+}
+
+.subjects_taught li strong {
+    color: var(--color-primary);
+}
+
+.subjects_taught p {
+    color: var(--color-light);
+    margin-bottom: 20px;
+}
+
+

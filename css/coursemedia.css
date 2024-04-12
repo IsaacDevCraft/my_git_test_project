@@ -1,0 +1,33 @@
+
+
+/* Media query for tablet */
+@media only screen and (max-width: 1290px) {
+    
+    .courses_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nav_menu {
+        
+        position: fixed;
+        top: 5rem;
+        right: 0%;
+        height: fit-content;
+        width: 18rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        transform: translateX(100%);
+        transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+  
+}
+
+/* Media query for max-width: 600px */
+@media only screen and (max-width: 600px) {
+    
+    .courses_container {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    
+}
