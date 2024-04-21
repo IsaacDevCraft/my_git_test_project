@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+
+
 # Shining Light School Website Project
 
 ## Overview
@@ -24,4 +24,4 @@ Throughout the development process, I encountered challenges such as ensuring re
 
 ## Next Steps
 In the future, I plan to further enhance the website by adding features such as a blog section, event calendar, and student portal to create a more interactive and engaging online experience for the school community.
->>>>>>> 160baa771a7a1c8fdd404f67d3f0a798c49a00b4
+
